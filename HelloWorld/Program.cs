@@ -61,29 +61,30 @@
                 Console.Write("Number2:");
                 number2 = Convert.ToInt32(Console.ReadLine());
             } while (number2 < number1);
-
+            
             int count = 0;
-            for (int i = number1; i <= number2; i++)
-            {
-                //if (i % 12 == 0)
-                //{
-                //    Console.WriteLine(i);
-                //    count++;
-                //}
+            //for (int i = number1; i <= number2; i++)
+            //{
+            //    //if (i % 12 == 0)
+            //    //{
+            //    //    Console.WriteLine(i);
+            //    //    count++;
+            //    //}
 
-                //if (i % 3 == 0 && i % 4 == 0)
-                //    Console.WriteLine(i);
+            //    //if (i % 3 == 0 && i % 4 == 0)
+            //    //    Console.WriteLine(i);
 
-                //if (i % 3 == 0)
-                //{
-                //    if (i % 4 == 0)
-                //    {
-                //        Console.WriteLine(i);
-                //    }
-                //}
-            }
+            //    //if (i % 3 == 0)
+            //    //{
+            //    //    if (i % 4 == 0)
+            //    //    {
+            //    //        Console.WriteLine(i);
+            //    //    }
+            //    //}
+            //}
             bool isDivide4;
             bool isDivide3;
+            System.Int32 x = 4;
             for (int i = number1; i <= number2; i++)
             {
                 //if (i % 12 == 0)
